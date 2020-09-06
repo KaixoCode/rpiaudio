@@ -42,3 +42,4 @@ CMakeFiles/
 libs/
 x64/
 *.user
+enc_temp_folder/
