@@ -103,6 +103,6 @@ void AudioCallback(float *buffer)
         double e1 = env[0].GenerateNextSample();
         mix += o1 * e1;
         
-        buffer[i] = mix * 0.2;
+        buffer[i] = o1;
     }
 }
