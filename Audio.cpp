@@ -4,7 +4,7 @@
 
 
 
-#ifdef _linux_
+#ifdef __linux__
 #include <alsa/asoundlib.h>
 #include <thread>
 
